@@ -1,0 +1,25 @@
+{
+  "name": "appel",
+  "version": "1.0.0",
+  "description": "An application to assist with the ranking calculation for Fencing Ireland",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott O'Malley",
+  "license": "MIT",
+  "dependencies": {
+    "fortune": "^3.5.7",
+    "fortune-json-api": "^2.0.4",
+    "fortune-nedb": "^1.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHandsomeCoder/Appel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheHandsomeCoder/Appel/issues"
+  },
+  "homepage": "https://github.com/TheHandsomeCoder/Appel#readme"
+}
