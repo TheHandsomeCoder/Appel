@@ -39,17 +39,17 @@ const instance = new fortune({
 
 // `instance` is an instance of Fortune.js.
 const listener = fortune.net.http(instance, {
-    //serializers: [
-    //    // The `options` object here is optional.
-    //    [ jsonApiSerializer, {/*options*/} ]
-    //],
+    serializers: [
+       // The `options` object here is optional.
+       [ jsonApiSerializer, {/*options*/} ]
+    ],
     //adapter: [ nedbAdapter, {/*options*/} ]
 });
 
 // The listener function may be used as a standalone server, or
 // may be composed as part of a framework.
 const server = http.createServer(function(request, response){
-    response.setHeader('Access-Control-Allow-Origin', 'http://localhost:63342');
+    response.setHeader('Access-Control-Allow-Origin', '*');
     return listener(request, response);
 });
 

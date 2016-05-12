@@ -14,7 +14,7 @@ function breezeCtrl($scope, breeze) {
     var manager = new breeze.EntityManager({dataService: ds});
 
     var query = new breeze.EntityQuery()
-        .from("fencer");
+        .from("fencers");
 
     manager.executeQuery(query)
         .then(function (data) {
