@@ -1,0 +1,24 @@
+{
+  "name": "appel",
+  "description": "An application to assist with the ranking calculation for Fencing Ireland",
+  "main": "main.js",
+  "authors": [
+    "Scott O'Malley"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TheHandsomeCoder/Appel",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "breeze-rest-adapter": "https://github.com/mradamlacey/breeze-rest-adapter.git",
+    "breeze-client-labs": "^1.5.8",
+    "breeze-client": "^1.5.6"
+  }
+}
